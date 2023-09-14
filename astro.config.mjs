@@ -7,6 +7,6 @@ import react from "@astrojs/react";
 export default defineConfig({
   output: 'server',
   adapter: vercel(),
-  integrations: [react()],
-  renderers: ['@astrojs/react'],
+  integrations: [react()]
+  
 });
